@@ -6,6 +6,19 @@
 
 int main() {
   
+  int mark1,mark2;
+  float average;
+
+  printf("Enter marks 1: ");
+  scanf("%d",&mark1);
+
+  printf("Enter mark 2 : ");
+  scanf("%d",&mark2);
+
+  average = float (mark1+mark2)/2;
+
+  printf("Average : %.2f",average);
+
   return 0;
 }
 
